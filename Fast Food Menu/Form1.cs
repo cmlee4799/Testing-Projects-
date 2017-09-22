@@ -22,6 +22,28 @@ namespace Fast_Food_Menu
             DialogResult iExit;
 
             iExit = MessageBox.Show("Confirm you want to exit the system", Convert.ToString(Title), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (iExit == DialogResult.Yes)
+                Application.Exit();
+        }
+
+        private void ResetTextBoxes()
+        {
+            Action<Control.ControlCollection> boxes = null;
+
+            boxes = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                        (control as TextBox).Text = "0";
+                        else
+                            boxes(controls);
+            };
+        }
+        
+        private void Reset_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

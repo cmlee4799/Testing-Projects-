@@ -694,6 +694,7 @@
             this.Reset.TabIndex = 13;
             this.Reset.Text = "Reset";
             this.Reset.UseVisualStyleBackColor = true;
+            this.Reset.Click += new System.EventHandler(this.Reset_Click);
             // 
             // Exit
             // 
