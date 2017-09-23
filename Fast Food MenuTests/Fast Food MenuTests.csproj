@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{443464CB-33E1-4463-ADFD-BED4D1E1A427}</ProjectGuid>
+    <ProjectGuid>{D02F0C87-2504-4C04-933E-E7DABDA0441D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FastFoodMenuUnitTests</RootNamespace>
-    <AssemblyName>FastFoodMenuUnitTests</AssemblyName>
+    <RootNamespace>Fast_Food_MenuTests</RootNamespace>
+    <AssemblyName>Fast Food MenuTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,12 +52,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Form1Tests.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fast Food Menu\Fast Food Menu.csproj">
-      <Project>{6c926b20-90f3-4212-9e78-06dd57a66d61}</Project>
+      <Project>{6C926B20-90F3-4212-9E78-06DD57A66D61}</Project>
       <Name>Fast Food Menu</Name>
     </ProjectReference>
   </ItemGroup>

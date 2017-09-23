@@ -34,12 +34,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Title = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txHotDogs = new System.Windows.Forms.TextBox();
             this.txChlDogs = new System.Windows.Forms.TextBox();
             this.ckChChzDogs = new System.Windows.Forms.CheckBox();
-            this.txHotDogs = new System.Windows.Forms.TextBox();
             this.ckChlDogs = new System.Windows.Forms.CheckBox();
-            this.txChocVanShake = new System.Windows.Forms.TextBox();
             this.ckHotDogs = new System.Windows.Forms.CheckBox();
+            this.txChChzDogs = new System.Windows.Forms.TextBox();
             this.txBLT = new System.Windows.Forms.TextBox();
             this.ckBLT = new System.Windows.Forms.CheckBox();
             this.txFishSw = new System.Windows.Forms.TextBox();
@@ -56,54 +56,54 @@
             this.ckCheeseburger = new System.Windows.Forms.CheckBox();
             this.txHamburger = new System.Windows.Forms.TextBox();
             this.ckHamburger = new System.Windows.Forms.CheckBox();
+            this.txChocVanShake = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.txOnRgs = new System.Windows.Forms.TextBox();
-            this.ckSoup = new System.Windows.Forms.CheckBox();
             this.txSdSal = new System.Windows.Forms.TextBox();
-            this.ckOnRgs = new System.Windows.Forms.CheckBox();
+            this.txOnRgs = new System.Windows.Forms.TextBox();
             this.txFries = new System.Windows.Forms.TextBox();
+            this.ckSoup = new System.Windows.Forms.CheckBox();
+            this.ckOnRgs = new System.Windows.Forms.CheckBox();
             this.ckSdSal = new System.Windows.Forms.CheckBox();
-            this.txChChzDogs = new System.Windows.Forms.TextBox();
+            this.txSoup = new System.Windows.Forms.TextBox();
             this.ckFries = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.Exit = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
             this.Total = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.paymentCash = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txVanShake = new System.Windows.Forms.TextBox();
+            this.cashAmountLabel = new System.Windows.Forms.Label();
             this.paymentMethod = new System.Windows.Forms.ComboBox();
+            this.txVanShake = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.txChocShake = new System.Windows.Forms.TextBox();
             this.txCheerShake = new System.Windows.Forms.TextBox();
             this.ckChocVanShake = new System.Windows.Forms.CheckBox();
-            this.txChocShake = new System.Windows.Forms.TextBox();
             this.ckCheerShake = new System.Windows.Forms.CheckBox();
-            this.paymentCash = new System.Windows.Forms.TextBox();
-            this.ckChocShake = new System.Windows.Forms.CheckBox();
-            this.txStrawShake = new System.Windows.Forms.TextBox();
-            this.ckVanShake = new System.Windows.Forms.CheckBox();
-            this.txGinger = new System.Windows.Forms.TextBox();
-            this.ckStrawShake = new System.Windows.Forms.CheckBox();
-            this.txStrawberry = new System.Windows.Forms.TextBox();
-            this.ckGinger = new System.Windows.Forms.CheckBox();
-            this.txGrape = new System.Windows.Forms.TextBox();
-            this.ckStawberry = new System.Windows.Forms.CheckBox();
-            this.txOrange = new System.Windows.Forms.TextBox();
-            this.ckGrape = new System.Windows.Forms.CheckBox();
-            this.txSprite = new System.Windows.Forms.TextBox();
-            this.ckOrange = new System.Windows.Forms.CheckBox();
             this.txCoke = new System.Windows.Forms.TextBox();
+            this.txSprite = new System.Windows.Forms.TextBox();
+            this.txOrange = new System.Windows.Forms.TextBox();
+            this.txGrape = new System.Windows.Forms.TextBox();
+            this.txStrawberry = new System.Windows.Forms.TextBox();
+            this.txGinger = new System.Windows.Forms.TextBox();
+            this.txStrawShake = new System.Windows.Forms.TextBox();
+            this.ckChocShake = new System.Windows.Forms.CheckBox();
+            this.ckVanShake = new System.Windows.Forms.CheckBox();
+            this.ckStrawShake = new System.Windows.Forms.CheckBox();
+            this.ckGinger = new System.Windows.Forms.CheckBox();
+            this.ckStrawberry = new System.Windows.Forms.CheckBox();
+            this.ckGrape = new System.Windows.Forms.CheckBox();
+            this.ckOrange = new System.Windows.Forms.CheckBox();
             this.ckSprite = new System.Windows.Forms.CheckBox();
-            this.txSoup = new System.Windows.Forms.TextBox();
             this.ckCoke = new System.Windows.Forms.CheckBox();
             this.orderedItems = new System.Windows.Forms.TextBox();
+            this.subtotalTx = new System.Windows.Forms.TextBox();
+            this.taxTx = new System.Windows.Forms.TextBox();
+            this.totalTx = new System.Windows.Forms.TextBox();
+            this.changeTx = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -194,6 +194,13 @@
             this.panel3.Size = new System.Drawing.Size(350, 310);
             this.panel3.TabIndex = 1;
             // 
+            // txHotDogs
+            // 
+            this.txHotDogs.Location = new System.Drawing.Point(167, 218);
+            this.txHotDogs.Name = "txHotDogs";
+            this.txHotDogs.Size = new System.Drawing.Size(100, 22);
+            this.txHotDogs.TabIndex = 19;
+            // 
             // txChlDogs
             // 
             this.txChlDogs.Location = new System.Drawing.Point(167, 247);
@@ -210,13 +217,7 @@
             this.ckChChzDogs.TabIndex = 20;
             this.ckChChzDogs.Text = "2 Chili Cheese Dogs";
             this.ckChChzDogs.UseVisualStyleBackColor = true;
-            // 
-            // txHotDogs
-            // 
-            this.txHotDogs.Location = new System.Drawing.Point(167, 218);
-            this.txHotDogs.Name = "txHotDogs";
-            this.txHotDogs.Size = new System.Drawing.Size(100, 22);
-            this.txHotDogs.TabIndex = 19;
+            this.ckChChzDogs.CheckedChanged += new System.EventHandler(this.ckChChzDogs_CheckedChanged);
             // 
             // ckChlDogs
             // 
@@ -227,13 +228,7 @@
             this.ckChlDogs.TabIndex = 18;
             this.ckChlDogs.Text = "2 Chili Dogs";
             this.ckChlDogs.UseVisualStyleBackColor = true;
-            // 
-            // txChocVanShake
-            // 
-            this.txChocVanShake.Location = new System.Drawing.Point(167, 275);
-            this.txChocVanShake.Name = "txChocVanShake";
-            this.txChocVanShake.Size = new System.Drawing.Size(100, 22);
-            this.txChocVanShake.TabIndex = 17;
+            this.ckChlDogs.CheckedChanged += new System.EventHandler(this.ckChlDogs_CheckedChanged);
             // 
             // ckHotDogs
             // 
@@ -244,6 +239,14 @@
             this.ckHotDogs.TabIndex = 16;
             this.ckHotDogs.Text = "2 Hot Dogs";
             this.ckHotDogs.UseVisualStyleBackColor = true;
+            this.ckHotDogs.CheckedChanged += new System.EventHandler(this.ckHotDogs_CheckedChanged);
+            // 
+            // txChChzDogs
+            // 
+            this.txChChzDogs.Location = new System.Drawing.Point(167, 274);
+            this.txChChzDogs.Name = "txChChzDogs";
+            this.txChChzDogs.Size = new System.Drawing.Size(100, 22);
+            this.txChChzDogs.TabIndex = 9;
             // 
             // txBLT
             // 
@@ -261,6 +264,7 @@
             this.ckBLT.TabIndex = 14;
             this.ckBLT.Text = "BLT Sandwich";
             this.ckBLT.UseVisualStyleBackColor = true;
+            this.ckBLT.CheckedChanged += new System.EventHandler(this.ckBLT_CheckedChanged);
             // 
             // txFishSw
             // 
@@ -278,6 +282,7 @@
             this.ckFishSw.TabIndex = 12;
             this.ckFishSw.Text = "Fish Sandwich";
             this.ckFishSw.UseVisualStyleBackColor = true;
+            this.ckFishSw.CheckedChanged += new System.EventHandler(this.ckFishSw_CheckedChanged);
             // 
             // txCknSal
             // 
@@ -295,6 +300,7 @@
             this.ckCknSal.TabIndex = 10;
             this.ckCknSal.Text = "Chicken Salad";
             this.ckCknSal.UseVisualStyleBackColor = true;
+            this.ckCknSal.CheckedChanged += new System.EventHandler(this.ckCknSal_CheckedChanged);
             // 
             // txGrkSal
             // 
@@ -312,6 +318,7 @@
             this.ckGrkSal.TabIndex = 8;
             this.ckGrkSal.Text = "Greek Salad";
             this.ckGrkSal.UseVisualStyleBackColor = true;
+            this.ckGrkSal.CheckedChanged += new System.EventHandler(this.ckGrkSal_CheckedChanged);
             // 
             // txBcnChBgr
             // 
@@ -329,6 +336,7 @@
             this.ckBcnChBgr.TabIndex = 6;
             this.ckBcnChBgr.Text = "Bacon Cheeseburger";
             this.ckBcnChBgr.UseVisualStyleBackColor = true;
+            this.ckBcnChBgr.CheckedChanged += new System.EventHandler(this.ckBcnChBgr_CheckedChanged);
             // 
             // txBcnBgr
             // 
@@ -346,6 +354,7 @@
             this.ckBcnBgr.TabIndex = 4;
             this.ckBcnBgr.Text = "Bacon Burger";
             this.ckBcnBgr.UseVisualStyleBackColor = true;
+            this.ckBcnBgr.CheckedChanged += new System.EventHandler(this.ckBcnBgr_CheckedChanged);
             // 
             // txCheeseburger
             // 
@@ -363,7 +372,7 @@
             this.ckCheeseburger.TabIndex = 2;
             this.ckCheeseburger.Text = "Cheeseburger";
             this.ckCheeseburger.UseVisualStyleBackColor = true;
-            this.ckCheeseburger.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.ckCheeseburger.CheckedChanged += new System.EventHandler(this.ckCheeseburger_CheckedChanged);
             // 
             // txHamburger
             // 
@@ -381,7 +390,14 @@
             this.ckHamburger.TabIndex = 0;
             this.ckHamburger.Text = "Hamburger";
             this.ckHamburger.UseVisualStyleBackColor = true;
-            this.ckHamburger.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.ckHamburger.CheckedChanged += new System.EventHandler(this.ckHamburger_CheckedChanged);
+            // 
+            // txChocVanShake
+            // 
+            this.txChocVanShake.Location = new System.Drawing.Point(167, 275);
+            this.txChocVanShake.Name = "txChocVanShake";
+            this.txChocVanShake.Size = new System.Drawing.Size(100, 22);
+            this.txChocVanShake.TabIndex = 17;
             // 
             // panel4
             // 
@@ -399,12 +415,26 @@
             this.panel4.Size = new System.Drawing.Size(431, 116);
             this.panel4.TabIndex = 1;
             // 
+            // txSdSal
+            // 
+            this.txSdSal.Location = new System.Drawing.Point(167, 28);
+            this.txSdSal.Name = "txSdSal";
+            this.txSdSal.Size = new System.Drawing.Size(100, 22);
+            this.txSdSal.TabIndex = 13;
+            // 
             // txOnRgs
             // 
             this.txOnRgs.Location = new System.Drawing.Point(167, 56);
             this.txOnRgs.Name = "txOnRgs";
             this.txOnRgs.Size = new System.Drawing.Size(100, 22);
             this.txOnRgs.TabIndex = 15;
+            // 
+            // txFries
+            // 
+            this.txFries.Location = new System.Drawing.Point(167, 2);
+            this.txFries.Name = "txFries";
+            this.txFries.Size = new System.Drawing.Size(100, 22);
+            this.txFries.TabIndex = 11;
             // 
             // ckSoup
             // 
@@ -415,13 +445,7 @@
             this.ckSoup.TabIndex = 14;
             this.ckSoup.Text = "Soup";
             this.ckSoup.UseVisualStyleBackColor = true;
-            // 
-            // txSdSal
-            // 
-            this.txSdSal.Location = new System.Drawing.Point(167, 28);
-            this.txSdSal.Name = "txSdSal";
-            this.txSdSal.Size = new System.Drawing.Size(100, 22);
-            this.txSdSal.TabIndex = 13;
+            this.ckSoup.CheckedChanged += new System.EventHandler(this.ckSoup_CheckedChanged);
             // 
             // ckOnRgs
             // 
@@ -432,13 +456,7 @@
             this.ckOnRgs.TabIndex = 12;
             this.ckOnRgs.Text = "Onion Rings";
             this.ckOnRgs.UseVisualStyleBackColor = true;
-            // 
-            // txFries
-            // 
-            this.txFries.Location = new System.Drawing.Point(167, 2);
-            this.txFries.Name = "txFries";
-            this.txFries.Size = new System.Drawing.Size(100, 22);
-            this.txFries.TabIndex = 11;
+            this.ckOnRgs.CheckedChanged += new System.EventHandler(this.ckOnRgs_CheckedChanged);
             // 
             // ckSdSal
             // 
@@ -449,13 +467,14 @@
             this.ckSdSal.TabIndex = 10;
             this.ckSdSal.Text = "Side Salad";
             this.ckSdSal.UseVisualStyleBackColor = true;
+            this.ckSdSal.CheckedChanged += new System.EventHandler(this.ckSdSal_CheckedChanged);
             // 
-            // txChChzDogs
+            // txSoup
             // 
-            this.txChChzDogs.Location = new System.Drawing.Point(167, 274);
-            this.txChChzDogs.Name = "txChChzDogs";
-            this.txChChzDogs.Size = new System.Drawing.Size(100, 22);
-            this.txChChzDogs.TabIndex = 9;
+            this.txSoup.Location = new System.Drawing.Point(167, 83);
+            this.txSoup.Name = "txSoup";
+            this.txSoup.Size = new System.Drawing.Size(100, 22);
+            this.txSoup.TabIndex = 1;
             // 
             // ckFries
             // 
@@ -466,23 +485,24 @@
             this.ckFries.TabIndex = 8;
             this.ckFries.Text = "Fries";
             this.ckFries.UseVisualStyleBackColor = true;
+            this.ckFries.CheckedChanged += new System.EventHandler(this.ckFries_CheckedChanged);
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Controls.Add(this.changeTx);
+            this.panel6.Controls.Add(this.totalTx);
+            this.panel6.Controls.Add(this.taxTx);
+            this.panel6.Controls.Add(this.subtotalTx);
             this.panel6.Controls.Add(this.Exit);
             this.panel6.Controls.Add(this.Reset);
             this.panel6.Controls.Add(this.Total);
-            this.panel6.Controls.Add(this.label7);
             this.panel6.Controls.Add(this.paymentCash);
-            this.panel6.Controls.Add(this.label8);
-            this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.label5);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.label3);
-            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.cashAmountLabel);
             this.panel6.Controls.Add(this.paymentMethod);
             this.panel6.Location = new System.Drawing.Point(389, 264);
             this.panel6.Name = "panel6";
@@ -522,93 +542,62 @@
             this.Total.UseVisualStyleBackColor = true;
             this.Total.Click += new System.EventHandler(this.Total_Click);
             // 
-            // label7
+            // paymentCash
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(315, 80);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 17);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "label7";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(315, 56);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 17);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "label8";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(315, 34);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 17);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "label9";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(315, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 17);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "label10";
+            this.paymentCash.Location = new System.Drawing.Point(12, 34);
+            this.paymentCash.Name = "paymentCash";
+            this.paymentCash.Size = new System.Drawing.Size(100, 22);
+            this.paymentCash.TabIndex = 17;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(241, 80);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(241, 83);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
+            this.label6.Size = new System.Drawing.Size(72, 20);
             this.label6.TabIndex = 7;
-            this.label6.Text = "label6";
+            this.label6.Text = "Change";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(241, 56);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
+            this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
+            this.label5.Text = "Total";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(241, 34);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(241, 31);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
+            this.label4.Size = new System.Drawing.Size(39, 20);
             this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
+            this.label4.Text = "Tax";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(241, 6);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
+            this.label3.Size = new System.Drawing.Size(78, 20);
             this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
+            this.label3.Text = "Subtotal";
             // 
-            // label2
+            // cashAmountLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(34, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
-            // 
-            // txVanShake
-            // 
-            this.txVanShake.Location = new System.Drawing.Point(167, 194);
-            this.txVanShake.Name = "txVanShake";
-            this.txVanShake.Size = new System.Drawing.Size(100, 22);
-            this.txVanShake.TabIndex = 1;
+            this.cashAmountLabel.AutoSize = true;
+            this.cashAmountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cashAmountLabel.Location = new System.Drawing.Point(30, 73);
+            this.cashAmountLabel.Name = "cashAmountLabel";
+            this.cashAmountLabel.Size = new System.Drawing.Size(72, 20);
+            this.cashAmountLabel.TabIndex = 3;
+            this.cashAmountLabel.Text = "Amount";
             // 
             // paymentMethod
             // 
@@ -618,6 +607,13 @@
             this.paymentMethod.Size = new System.Drawing.Size(121, 24);
             this.paymentMethod.TabIndex = 0;
             this.paymentMethod.SelectedIndexChanged += new System.EventHandler(this.paymentMethod_SelectedIndexChanged);
+            // 
+            // txVanShake
+            // 
+            this.txVanShake.Location = new System.Drawing.Point(167, 194);
+            this.txVanShake.Name = "txVanShake";
+            this.txVanShake.Size = new System.Drawing.Size(100, 22);
+            this.txVanShake.TabIndex = 1;
             // 
             // panel5
             // 
@@ -639,7 +635,7 @@
             this.panel5.Controls.Add(this.ckStrawShake);
             this.panel5.Controls.Add(this.ckGinger);
             this.panel5.Controls.Add(this.txVanShake);
-            this.panel5.Controls.Add(this.ckStawberry);
+            this.panel5.Controls.Add(this.ckStrawberry);
             this.panel5.Controls.Add(this.ckGrape);
             this.panel5.Controls.Add(this.ckOrange);
             this.panel5.Controls.Add(this.ckSprite);
@@ -648,6 +644,13 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(350, 310);
             this.panel5.TabIndex = 16;
+            // 
+            // txChocShake
+            // 
+            this.txChocShake.Location = new System.Drawing.Point(167, 222);
+            this.txChocShake.Name = "txChocShake";
+            this.txChocShake.Size = new System.Drawing.Size(100, 22);
+            this.txChocShake.TabIndex = 19;
             // 
             // txCheerShake
             // 
@@ -665,13 +668,7 @@
             this.ckChocVanShake.TabIndex = 20;
             this.ckChocVanShake.Text = "Choc-Van Shake";
             this.ckChocVanShake.UseVisualStyleBackColor = true;
-            // 
-            // txChocShake
-            // 
-            this.txChocShake.Location = new System.Drawing.Point(167, 222);
-            this.txChocShake.Name = "txChocShake";
-            this.txChocShake.Size = new System.Drawing.Size(100, 22);
-            this.txChocShake.TabIndex = 19;
+            this.ckChocVanShake.CheckedChanged += new System.EventHandler(this.ckChocVanShake_CheckedChanged);
             // 
             // ckCheerShake
             // 
@@ -682,13 +679,56 @@
             this.ckCheerShake.TabIndex = 18;
             this.ckCheerShake.Text = "Cheerwine Shake";
             this.ckCheerShake.UseVisualStyleBackColor = true;
+            this.ckCheerShake.CheckedChanged += new System.EventHandler(this.ckCheerShake_CheckedChanged);
             // 
-            // paymentCash
+            // txCoke
             // 
-            this.paymentCash.Location = new System.Drawing.Point(12, 34);
-            this.paymentCash.Name = "paymentCash";
-            this.paymentCash.Size = new System.Drawing.Size(100, 22);
-            this.paymentCash.TabIndex = 17;
+            this.txCoke.Location = new System.Drawing.Point(167, 4);
+            this.txCoke.Name = "txCoke";
+            this.txCoke.Size = new System.Drawing.Size(100, 22);
+            this.txCoke.TabIndex = 3;
+            // 
+            // txSprite
+            // 
+            this.txSprite.Location = new System.Drawing.Point(167, 32);
+            this.txSprite.Name = "txSprite";
+            this.txSprite.Size = new System.Drawing.Size(100, 22);
+            this.txSprite.TabIndex = 5;
+            // 
+            // txOrange
+            // 
+            this.txOrange.Location = new System.Drawing.Point(167, 59);
+            this.txOrange.Name = "txOrange";
+            this.txOrange.Size = new System.Drawing.Size(100, 22);
+            this.txOrange.TabIndex = 7;
+            // 
+            // txGrape
+            // 
+            this.txGrape.Location = new System.Drawing.Point(167, 85);
+            this.txGrape.Name = "txGrape";
+            this.txGrape.Size = new System.Drawing.Size(100, 22);
+            this.txGrape.TabIndex = 9;
+            // 
+            // txStrawberry
+            // 
+            this.txStrawberry.Location = new System.Drawing.Point(167, 113);
+            this.txStrawberry.Name = "txStrawberry";
+            this.txStrawberry.Size = new System.Drawing.Size(100, 22);
+            this.txStrawberry.TabIndex = 11;
+            // 
+            // txGinger
+            // 
+            this.txGinger.Location = new System.Drawing.Point(167, 140);
+            this.txGinger.Name = "txGinger";
+            this.txGinger.Size = new System.Drawing.Size(100, 22);
+            this.txGinger.TabIndex = 13;
+            // 
+            // txStrawShake
+            // 
+            this.txStrawShake.Location = new System.Drawing.Point(167, 167);
+            this.txStrawShake.Name = "txStrawShake";
+            this.txStrawShake.Size = new System.Drawing.Size(100, 22);
+            this.txStrawShake.TabIndex = 15;
             // 
             // ckChocShake
             // 
@@ -699,13 +739,7 @@
             this.ckChocShake.TabIndex = 16;
             this.ckChocShake.Text = "Chocolate Shake";
             this.ckChocShake.UseVisualStyleBackColor = true;
-            // 
-            // txStrawShake
-            // 
-            this.txStrawShake.Location = new System.Drawing.Point(167, 167);
-            this.txStrawShake.Name = "txStrawShake";
-            this.txStrawShake.Size = new System.Drawing.Size(100, 22);
-            this.txStrawShake.TabIndex = 15;
+            this.ckChocShake.CheckedChanged += new System.EventHandler(this.ckChocShake_CheckedChanged);
             // 
             // ckVanShake
             // 
@@ -716,13 +750,7 @@
             this.ckVanShake.TabIndex = 14;
             this.ckVanShake.Text = "Vanilla Shake";
             this.ckVanShake.UseVisualStyleBackColor = true;
-            // 
-            // txGinger
-            // 
-            this.txGinger.Location = new System.Drawing.Point(167, 140);
-            this.txGinger.Name = "txGinger";
-            this.txGinger.Size = new System.Drawing.Size(100, 22);
-            this.txGinger.TabIndex = 13;
+            this.ckVanShake.CheckedChanged += new System.EventHandler(this.ckVanShake_CheckedChanged);
             // 
             // ckStrawShake
             // 
@@ -733,13 +761,7 @@
             this.ckStrawShake.TabIndex = 12;
             this.ckStrawShake.Text = "Strawberry Shake";
             this.ckStrawShake.UseVisualStyleBackColor = true;
-            // 
-            // txStrawberry
-            // 
-            this.txStrawberry.Location = new System.Drawing.Point(167, 113);
-            this.txStrawberry.Name = "txStrawberry";
-            this.txStrawberry.Size = new System.Drawing.Size(100, 22);
-            this.txStrawberry.TabIndex = 11;
+            this.ckStrawShake.CheckedChanged += new System.EventHandler(this.ckStrawShake_CheckedChanged);
             // 
             // ckGinger
             // 
@@ -750,30 +772,18 @@
             this.ckGinger.TabIndex = 10;
             this.ckGinger.Text = "Gingerale";
             this.ckGinger.UseVisualStyleBackColor = true;
+            this.ckGinger.CheckedChanged += new System.EventHandler(this.ckGinger_CheckedChanged);
             // 
-            // txGrape
+            // ckStrawberry
             // 
-            this.txGrape.Location = new System.Drawing.Point(167, 85);
-            this.txGrape.Name = "txGrape";
-            this.txGrape.Size = new System.Drawing.Size(100, 22);
-            this.txGrape.TabIndex = 9;
-            // 
-            // ckStawberry
-            // 
-            this.ckStawberry.AutoSize = true;
-            this.ckStawberry.Location = new System.Drawing.Point(4, 112);
-            this.ckStawberry.Name = "ckStawberry";
-            this.ckStawberry.Size = new System.Drawing.Size(138, 21);
-            this.ckStawberry.TabIndex = 8;
-            this.ckStawberry.Text = "Strawberry Fanta";
-            this.ckStawberry.UseVisualStyleBackColor = true;
-            // 
-            // txOrange
-            // 
-            this.txOrange.Location = new System.Drawing.Point(167, 59);
-            this.txOrange.Name = "txOrange";
-            this.txOrange.Size = new System.Drawing.Size(100, 22);
-            this.txOrange.TabIndex = 7;
+            this.ckStrawberry.AutoSize = true;
+            this.ckStrawberry.Location = new System.Drawing.Point(4, 112);
+            this.ckStrawberry.Name = "ckStrawberry";
+            this.ckStrawberry.Size = new System.Drawing.Size(138, 21);
+            this.ckStrawberry.TabIndex = 8;
+            this.ckStrawberry.Text = "Strawberry Fanta";
+            this.ckStrawberry.UseVisualStyleBackColor = true;
+            this.ckStrawberry.CheckedChanged += new System.EventHandler(this.ckStrawberry_CheckedChanged);
             // 
             // ckGrape
             // 
@@ -784,13 +794,7 @@
             this.ckGrape.TabIndex = 6;
             this.ckGrape.Text = "Grape Fanta";
             this.ckGrape.UseVisualStyleBackColor = true;
-            // 
-            // txSprite
-            // 
-            this.txSprite.Location = new System.Drawing.Point(167, 32);
-            this.txSprite.Name = "txSprite";
-            this.txSprite.Size = new System.Drawing.Size(100, 22);
-            this.txSprite.TabIndex = 5;
+            this.ckGrape.CheckedChanged += new System.EventHandler(this.ckGrape_CheckedChanged);
             // 
             // ckOrange
             // 
@@ -801,13 +805,7 @@
             this.ckOrange.TabIndex = 4;
             this.ckOrange.Text = "Orange Fanta";
             this.ckOrange.UseVisualStyleBackColor = true;
-            // 
-            // txCoke
-            // 
-            this.txCoke.Location = new System.Drawing.Point(167, 4);
-            this.txCoke.Name = "txCoke";
-            this.txCoke.Size = new System.Drawing.Size(100, 22);
-            this.txCoke.TabIndex = 3;
+            this.ckOrange.CheckedChanged += new System.EventHandler(this.ckOrange_CheckedChanged);
             // 
             // ckSprite
             // 
@@ -818,13 +816,7 @@
             this.ckSprite.TabIndex = 2;
             this.ckSprite.Text = "Sprite";
             this.ckSprite.UseVisualStyleBackColor = true;
-            // 
-            // txSoup
-            // 
-            this.txSoup.Location = new System.Drawing.Point(167, 83);
-            this.txSoup.Name = "txSoup";
-            this.txSoup.Size = new System.Drawing.Size(100, 22);
-            this.txSoup.TabIndex = 1;
+            this.ckSprite.CheckedChanged += new System.EventHandler(this.ckSprite_CheckedChanged);
             // 
             // ckCoke
             // 
@@ -835,6 +827,7 @@
             this.ckCoke.TabIndex = 0;
             this.ckCoke.Text = "Coke";
             this.ckCoke.UseVisualStyleBackColor = true;
+            this.ckCoke.CheckedChanged += new System.EventHandler(this.ckCoke_CheckedChanged);
             // 
             // orderedItems
             // 
@@ -845,6 +838,34 @@
             this.orderedItems.Size = new System.Drawing.Size(1188, 27);
             this.orderedItems.TabIndex = 17;
             this.orderedItems.Text = "Thank you for your order!";
+            // 
+            // subtotalTx
+            // 
+            this.subtotalTx.Location = new System.Drawing.Point(326, 6);
+            this.subtotalTx.Name = "subtotalTx";
+            this.subtotalTx.Size = new System.Drawing.Size(100, 22);
+            this.subtotalTx.TabIndex = 18;
+            // 
+            // taxTx
+            // 
+            this.taxTx.Location = new System.Drawing.Point(326, 31);
+            this.taxTx.Name = "taxTx";
+            this.taxTx.Size = new System.Drawing.Size(100, 22);
+            this.taxTx.TabIndex = 19;
+            // 
+            // totalTx
+            // 
+            this.totalTx.Location = new System.Drawing.Point(326, 59);
+            this.totalTx.Name = "totalTx";
+            this.totalTx.Size = new System.Drawing.Size(100, 22);
+            this.totalTx.TabIndex = 20;
+            // 
+            // changeTx
+            // 
+            this.changeTx.Location = new System.Drawing.Point(326, 87);
+            this.changeTx.Name = "changeTx";
+            this.changeTx.Size = new System.Drawing.Size(100, 22);
+            this.changeTx.TabIndex = 21;
             // 
             // Form1
             // 
@@ -905,15 +926,11 @@
         private System.Windows.Forms.CheckBox ckSdSal;
         private System.Windows.Forms.TextBox txChChzDogs;
         private System.Windows.Forms.CheckBox ckFries;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label cashAmountLabel;
         private System.Windows.Forms.TextBox txVanShake;
         private System.Windows.Forms.ComboBox paymentMethod;
         private System.Windows.Forms.Panel panel5;
@@ -924,7 +941,7 @@
         private System.Windows.Forms.TextBox txStrawberry;
         private System.Windows.Forms.CheckBox ckGinger;
         private System.Windows.Forms.TextBox txGrape;
-        private System.Windows.Forms.CheckBox ckStawberry;
+        private System.Windows.Forms.CheckBox ckStrawberry;
         private System.Windows.Forms.TextBox txOrange;
         private System.Windows.Forms.CheckBox ckGrape;
         private System.Windows.Forms.TextBox txSprite;
@@ -952,6 +969,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Total;
         private System.Windows.Forms.TextBox orderedItems;
+        private System.Windows.Forms.TextBox changeTx;
+        private System.Windows.Forms.TextBox totalTx;
+        private System.Windows.Forms.TextBox taxTx;
+        private System.Windows.Forms.TextBox subtotalTx;
     }
 }
 

@@ -22,14 +22,4 @@ namespace FastFoodMenuUnitTests
         }
     }
 
-    //[TestMethod]
-    //public void CanEnterItems()
-    //{
-    //    string itemValue = null;
-        
-
-    //    if (checked)
-    //        itemValue = text
-            
-    //}
 }
