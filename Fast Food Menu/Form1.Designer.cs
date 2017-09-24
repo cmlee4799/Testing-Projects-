@@ -67,6 +67,10 @@
             this.txSoup = new System.Windows.Forms.TextBox();
             this.ckFries = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.changeTx = new System.Windows.Forms.TextBox();
+            this.totalTx = new System.Windows.Forms.TextBox();
+            this.taxTx = new System.Windows.Forms.TextBox();
+            this.subtotalTx = new System.Windows.Forms.TextBox();
             this.Exit = new System.Windows.Forms.Button();
             this.Reset = new System.Windows.Forms.Button();
             this.Total = new System.Windows.Forms.Button();
@@ -99,11 +103,6 @@
             this.ckOrange = new System.Windows.Forms.CheckBox();
             this.ckSprite = new System.Windows.Forms.CheckBox();
             this.ckCoke = new System.Windows.Forms.CheckBox();
-            this.orderedItems = new System.Windows.Forms.TextBox();
-            this.subtotalTx = new System.Windows.Forms.TextBox();
-            this.taxTx = new System.Windows.Forms.TextBox();
-            this.totalTx = new System.Windows.Forms.TextBox();
-            this.changeTx = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -509,6 +508,34 @@
             this.panel6.Size = new System.Drawing.Size(431, 192);
             this.panel6.TabIndex = 2;
             // 
+            // changeTx
+            // 
+            this.changeTx.Location = new System.Drawing.Point(326, 87);
+            this.changeTx.Name = "changeTx";
+            this.changeTx.Size = new System.Drawing.Size(100, 22);
+            this.changeTx.TabIndex = 21;
+            // 
+            // totalTx
+            // 
+            this.totalTx.Location = new System.Drawing.Point(326, 59);
+            this.totalTx.Name = "totalTx";
+            this.totalTx.Size = new System.Drawing.Size(100, 22);
+            this.totalTx.TabIndex = 20;
+            // 
+            // taxTx
+            // 
+            this.taxTx.Location = new System.Drawing.Point(326, 31);
+            this.taxTx.Name = "taxTx";
+            this.taxTx.Size = new System.Drawing.Size(100, 22);
+            this.taxTx.TabIndex = 19;
+            // 
+            // subtotalTx
+            // 
+            this.subtotalTx.Location = new System.Drawing.Point(326, 6);
+            this.subtotalTx.Name = "subtotalTx";
+            this.subtotalTx.Size = new System.Drawing.Size(100, 22);
+            this.subtotalTx.TabIndex = 18;
+            // 
             // Exit
             // 
             this.Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -829,50 +856,11 @@
             this.ckCoke.UseVisualStyleBackColor = true;
             this.ckCoke.CheckedChanged += new System.EventHandler(this.ckCoke_CheckedChanged);
             // 
-            // orderedItems
-            // 
-            this.orderedItems.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.orderedItems.Location = new System.Drawing.Point(12, 462);
-            this.orderedItems.Name = "orderedItems";
-            this.orderedItems.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.orderedItems.Size = new System.Drawing.Size(1188, 27);
-            this.orderedItems.TabIndex = 17;
-            this.orderedItems.Text = "Thank you for your order!";
-            // 
-            // subtotalTx
-            // 
-            this.subtotalTx.Location = new System.Drawing.Point(326, 6);
-            this.subtotalTx.Name = "subtotalTx";
-            this.subtotalTx.Size = new System.Drawing.Size(100, 22);
-            this.subtotalTx.TabIndex = 18;
-            // 
-            // taxTx
-            // 
-            this.taxTx.Location = new System.Drawing.Point(326, 31);
-            this.taxTx.Name = "taxTx";
-            this.taxTx.Size = new System.Drawing.Size(100, 22);
-            this.taxTx.TabIndex = 19;
-            // 
-            // totalTx
-            // 
-            this.totalTx.Location = new System.Drawing.Point(326, 59);
-            this.totalTx.Name = "totalTx";
-            this.totalTx.Size = new System.Drawing.Size(100, 22);
-            this.totalTx.TabIndex = 20;
-            // 
-            // changeTx
-            // 
-            this.changeTx.Location = new System.Drawing.Point(326, 87);
-            this.changeTx.Name = "changeTx";
-            this.changeTx.Size = new System.Drawing.Size(100, 22);
-            this.changeTx.TabIndex = 21;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1258, 514);
-            this.Controls.Add(this.orderedItems);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel4);
@@ -892,7 +880,6 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -968,7 +955,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Total;
-        private System.Windows.Forms.TextBox orderedItems;
         private System.Windows.Forms.TextBox changeTx;
         private System.Windows.Forms.TextBox totalTx;
         private System.Windows.Forms.TextBox taxTx;

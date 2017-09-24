@@ -173,6 +173,7 @@ namespace Fast_Food_Menu
             itemPrice[24] = Convert.ToDecimal(txOnRgs.Text) * Price_OnRgs;
             itemPrice[25] = Convert.ToDecimal(txSoup.Text) * Price_Soup;
 
+
             decimal change;
             if (paymentMethod.Text == "Cash")
             {
